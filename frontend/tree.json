@@ -1,0 +1,1555 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "feature": "Tea",
+      "operator": "<=",
+      "threshold": 0.5,
+      "children": [
+        {
+          "feature": "Water",
+          "operator": "<=",
+          "threshold": 0.5,
+          "children": [
+            {
+              "feature": "Week day lunch",
+              "operator": "<=",
+              "threshold": 0.5,
+              "children": [
+                {
+                  "feature": "Teachers",
+                  "operator": "<=",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "8",
+                      "operator": "<=",
+                      "threshold": 0.38,
+                      "children": [
+                        {
+                          "feature": "2",
+                          "operator": "<=",
+                          "threshold": 1.7,
+                          "children": [
+                            {
+                              "feature": "53",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "16",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "35",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "35",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "16",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "53",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "2",
+                          "operator": ">",
+                          "threshold": 1.7,
+                          "children": [
+                            {
+                              "feature": "Soda",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "10751",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "4",
+                                      "operator": "<=",
+                                      "threshold": 2.8,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "4",
+                                      "operator": ">",
+                                      "threshold": 2.8,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "10751",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Soda",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "Week day dinner",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "1",
+                                      "operator": "<=",
+                                      "threshold": 0.7,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "1",
+                                      "operator": ">",
+                                      "threshold": 0.7,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "Week day dinner",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "16",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "16",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "8",
+                      "operator": ">",
+                      "threshold": 0.38,
+                      "children": [
+                        {
+                          "feature": "Other",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "80",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "Late night snack",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "878",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "878",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "Late night snack",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 1.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "80",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "Other",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "Teachers",
+                  "operator": ">",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "16",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "Weekend dinner",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "Weekend dinner",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "16",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "Parents",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "Parents",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "feature": "Week day lunch",
+              "operator": ">",
+              "threshold": 0.5,
+              "children": [
+                {
+                  "feature": "4",
+                  "operator": "<=",
+                  "threshold": 1.87,
+                  "children": [
+                    {
+                      "feature": "35",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "Weekend dinner",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "1",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 0.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "1",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 0.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "Weekend dinner",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "53",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "80",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "2",
+                                      "operator": "<=",
+                                      "threshold": 1.7,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "2",
+                                      "operator": ">",
+                                      "threshold": 1.7,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "80",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 0.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "53",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 0.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "35",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "4",
+                          "operator": "<=",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "class": 0.0
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "4",
+                          "operator": ">",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "feature": "Week day dinner",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "2",
+                                  "operator": "<=",
+                                  "threshold": 2.3,
+                                  "children": [
+                                    {
+                                      "class": 0.0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "2",
+                                  "operator": ">",
+                                  "threshold": 2.3,
+                                  "children": [
+                                    {
+                                      "class": 0.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Week day dinner",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "878",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 0.0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "878",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 0.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "4",
+                  "operator": ">",
+                  "threshold": 1.87,
+                  "children": [
+                    {
+                      "feature": "28",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "1",
+                          "operator": "<=",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "feature": "4",
+                              "operator": "<=",
+                              "threshold": 2.74,
+                              "children": [
+                                {
+                                  "feature": "10751",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "16",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "16",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "10751",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "35",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "35",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "4",
+                              "operator": ">",
+                              "threshold": 2.74,
+                              "children": [
+                                {
+                                  "feature": "At a party",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "Siblings",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "Siblings",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "At a party",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "4",
+                                      "operator": "<=",
+                                      "threshold": 2.8,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "4",
+                                      "operator": ">",
+                                      "threshold": 2.8,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "1",
+                          "operator": ">",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "feature": "Friends",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Friends",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "28",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "At a party",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "Alcohol",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "18",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "35",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "35",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "18",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 1.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Alcohol",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "At a party",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "Friends",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Friends",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "8",
+                                  "operator": "<=",
+                                  "threshold": 0.38,
+                                  "children": [
+                                    {
+                                      "feature": "2",
+                                      "operator": "<=",
+                                      "threshold": 1.7,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "2",
+                                      "operator": ">",
+                                      "threshold": 1.7,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "8",
+                                  "operator": ">",
+                                  "threshold": 0.38,
+                                  "children": [
+                                    {
+                                      "feature": "4",
+                                      "operator": "<=",
+                                      "threshold": 2.77,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "4",
+                                      "operator": ">",
+                                      "threshold": 2.77,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "feature": "Water",
+          "operator": ">",
+          "threshold": 0.5,
+          "children": [
+            {
+              "feature": "2",
+              "operator": "<=",
+              "threshold": 1.87,
+              "children": [
+                {
+                  "feature": "1",
+                  "operator": "<=",
+                  "threshold": 0.9,
+                  "children": [
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "10751",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "12",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "10749",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "Siblings",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 1.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "Siblings",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "10749",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "12",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "10751",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 2.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "8",
+                          "operator": "<=",
+                          "threshold": 0.38,
+                          "children": [
+                            {
+                              "feature": "1",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "12",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "12",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "1",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "Late night snack",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "35",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "35",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "Late night snack",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "8",
+                          "operator": ">",
+                          "threshold": 0.38,
+                          "children": [
+                            {
+                              "feature": "4",
+                              "operator": "<=",
+                              "threshold": 1.67,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "4",
+                              "operator": ">",
+                              "threshold": 1.67,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "1",
+                  "operator": ">",
+                  "threshold": 0.9,
+                  "children": [
+                    {
+                      "feature": "8",
+                      "operator": "<=",
+                      "threshold": 0.12,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "8",
+                      "operator": ">",
+                      "threshold": 0.12,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "feature": "2",
+              "operator": ">",
+              "threshold": 1.87,
+              "children": [
+                {
+                  "feature": "16",
+                  "operator": "<=",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "18",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "Week day dinner",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Week day dinner",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "18",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 1.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "8",
+                          "operator": "<=",
+                          "threshold": 0.38,
+                          "children": [
+                            {
+                              "feature": "Friends",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Friends",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "878",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "feature": "Late night snack",
+                                      "operator": "<=",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 2.0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "feature": "Late night snack",
+                                      "operator": ">",
+                                      "threshold": 0.5,
+                                      "children": [
+                                        {
+                                          "class": 0.0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "878",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 1.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "8",
+                          "operator": ">",
+                          "threshold": 0.38,
+                          "children": [
+                            {
+                              "feature": "4",
+                              "operator": "<=",
+                              "threshold": 2.24,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "4",
+                              "operator": ">",
+                              "threshold": 2.24,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "16",
+                  "operator": ">",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "4",
+                      "operator": "<=",
+                      "threshold": 2.72,
+                      "children": [
+                        {
+                          "feature": "1",
+                          "operator": "<=",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "feature": "Parents",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Parents",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "1",
+                          "operator": ">",
+                          "threshold": 0.9,
+                          "children": [
+                            {
+                              "class": 2.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "4",
+                      "operator": ">",
+                      "threshold": 2.72,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "Tea",
+      "operator": ">",
+      "threshold": 0.5,
+      "children": [
+        {
+          "feature": "18",
+          "operator": "<=",
+          "threshold": 0.5,
+          "children": [
+            {
+              "feature": "53",
+              "operator": "<=",
+              "threshold": 0.5,
+              "children": [
+                {
+                  "feature": "Siblings",
+                  "operator": "<=",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "10751",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "8",
+                          "operator": "<=",
+                          "threshold": 0.12,
+                          "children": [
+                            {
+                              "feature": "28",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "28",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "8",
+                          "operator": ">",
+                          "threshold": 0.12,
+                          "children": [
+                            {
+                              "feature": "2",
+                              "operator": "<=",
+                              "threshold": 2.25,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "2",
+                              "operator": ">",
+                              "threshold": 2.25,
+                              "children": [
+                                {
+                                  "class": 1.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "10751",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "Siblings",
+                  "operator": ">",
+                  "threshold": 0.5,
+                  "children": [
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "Weekend dinner",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "feature": "Late night snack",
+                          "operator": "<=",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "feature": "Week day dinner",
+                              "operator": "<=",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "class": 2.0
+                                }
+                              ]
+                            },
+                            {
+                              "feature": "Week day dinner",
+                              "operator": ">",
+                              "threshold": 0.5,
+                              "children": [
+                                {
+                                  "feature": "Friends",
+                                  "operator": "<=",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": "Friends",
+                                  "operator": ">",
+                                  "threshold": 0.5,
+                                  "children": [
+                                    {
+                                      "class": 2.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "Late night snack",
+                          "operator": ">",
+                          "threshold": 0.5,
+                          "children": [
+                            {
+                              "class": 2.0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "feature": "53",
+              "operator": ">",
+              "threshold": 0.5,
+              "children": [
+                {
+                  "class": 2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "feature": "18",
+          "operator": ">",
+          "threshold": 0.5,
+          "children": [
+            {
+              "feature": "2",
+              "operator": "<=",
+              "threshold": 1.87,
+              "children": [
+                {
+                  "feature": "4",
+                  "operator": "<=",
+                  "threshold": 2.74,
+                  "children": [
+                    {
+                      "feature": "At a party",
+                      "operator": "<=",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    },
+                    {
+                      "feature": "At a party",
+                      "operator": ">",
+                      "threshold": 0.5,
+                      "children": [
+                        {
+                          "class": 2.0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "feature": "4",
+                  "operator": ">",
+                  "threshold": 2.74,
+                  "children": [
+                    {
+                      "class": 2.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "feature": "2",
+              "operator": ">",
+              "threshold": 1.87,
+              "children": [
+                {
+                  "class": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
