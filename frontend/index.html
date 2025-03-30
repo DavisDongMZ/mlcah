@@ -44,7 +44,6 @@
       const root = d3.hierarchy(data);
       treeLayout(root);
 
-      // 绘制连线
       g.selectAll('path.link')
         .data(root.links())
         .enter().append('path')
@@ -53,7 +52,6 @@
           .x(d => d.y)
           .y(d => d.x));
 
-      // 绘制节点
       const node = g.selectAll('g.node')
         .data(root.descendants())
         .enter().append('g')
@@ -69,7 +67,6 @@
         .attr('width', boxWidth)
         .attr('height', boxHeight);
 
-      // 根据数据内容显示文本（显示决策条件或叶子节点的类别）
       node.append('text')
         .attr('text-anchor', 'middle')
         .attr('alignment-baseline', 'middle')
